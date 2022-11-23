@@ -18,7 +18,7 @@ const GameOver = () => {
                     <h3>Parabéns você é um Potterhead!</h3>
                 )}
             <img src={ImageOver} alt="ballon" />
-            <button onClick={() => dispatch({ type: 'NEW_GAME' })}>Reinicar</button>
+            <button onClick={() => dispatch({ type: 'NEW_GAME' })}>Reiniciar</button>
         </C.GameOverContainer>
     )
 }
